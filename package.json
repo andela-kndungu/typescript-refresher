@@ -1,0 +1,35 @@
+{
+  "name": "typescript-refresher",
+  "version": "1.0.0",
+  "description": "``` git clone https://github.com/andela-kndungu/typescript-refresher.git cd typescript-refresher npm install -g typescript tsc -p . ```",
+  "main": "index.js",
+  "dependencies": {
+    "@types/react": "^0.14.51",
+    "@types/react-dom": "^0.14.19",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "typescript": "^2.0.10"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2",
+    "tslint": "^4.0.2",
+    "tslint-eslint-rules": "^3.0.0",
+    "webpack": "^1.13.3"
+  },
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "url": "git+https://github.com/andela-kndungu/typescript-refresher.git",
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "Kinuthia Ndung'u <kinuthia.ndungu@andela.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-kndungu/typescript-refresher/issues"
+  },
+  "homepage": "https://github.com/andela-kndungu/typescript-refresher#readme"
+}
